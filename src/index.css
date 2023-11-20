@@ -1,13 +1,140 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Slab',
+    serif;
+ 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(46, 74, 108, 1) 100%);
+  background-color: whitesmoke;
+  color: whitesmoke
+}
+.navbr a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(3, 57, 57);
+}
+.navbr:hover {
+  border: 4px solid #3b344e;
+  border-radius: 38px solid #3b344e;
+  font-style: italic;
+
+}
+.metitres {
+  color: whitesmoke;
+  font-style: oblique;
+}
+
+.me-auto {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  font-style: unset;
+  color: "#3b344e";
+  border-radius: 38px solid #3b344e;
+
+}
+
+.me-auto :hover {
+  color: aquamarine;
+  background-color: "#3b344e";
+  border-radius: 38px solid black;
+}
+.cartprof {
+  border-radius: 28px;
+  width: 240px;
+  height: 280px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+button,
+link {
+  color: aquamarine;
+  cursor: grab;
+  background-color: blueviolet;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Roboto Slab',
+    serif;
+}
+
+.photo {
+  border-radius: 28px;
+  width: 240px;
+  height: 280px;
+}
+
+.cartimage {
+  margin-left: 30px;
+}
+
+.mybutton {
+  margin-left: 70px;
+  margin-top: 30px;
+  background-color: gray;
+  color: aqua
+}
+
+.mybutton:hover {
+  border-radius: 12px;
+  color: rgb(5, 131, 62);
+}
+
+.competance {
+  margin-bottom: 30px;
+}
+
+.mymargin {
+  margin-bottom: 40px;
+}
+
+.reseauxx {
+align-items: flex-start;
+}
+link{
+  text-decoration: none;
+}
+.projects{
+  margin-top: 20px;
+margin-bottom: 50px;
+border: 8 px solid #3b344e;
+border-radius: 6px ;
+box-shadow: #3b344e;
+}
+
+.projects ul li{
+ 
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(184, 205, 205);
+  margin-bottom: 10px; 
+  padding: 2px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab',
+    serif;
+  font-weight: bold;
+  color: rgb(3, 57, 57);
+  margin-bottom: 20px;
+}
+.haut {
+  margin-bottom: 40px;
+}
+.haut a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #5de509;
+  align-items: center;
+  margin-bottom: 20px;
+
 }
