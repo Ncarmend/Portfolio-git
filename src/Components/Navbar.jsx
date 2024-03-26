@@ -8,7 +8,7 @@ function Mynavbar() {
         <>
             <Navbar bg="#3b344e" data-bs-theme="dark">
                 <Container className='navbr'>
-                    <Navbar.Brand href="#home">*</Navbar.Brand>
+                    <Navbar.Brand href="/">*</Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link ><Link to = "/">Home</Link></Nav.Link>
                         <Nav.Link><Link to ="/competences">Competences</Link></Nav.Link>  
