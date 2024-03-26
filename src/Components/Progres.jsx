@@ -30,6 +30,14 @@ const Progres = () => {
                     <ProgressBar striped variant="success" now={70} />
                 </div>
                 <div className='progression'>
+                    <label>Node.js</label>
+                    <ProgressBar striped variant="success" now={80} />
+                </div>
+                <div className='progression'>
+                    <label>NEXT.js</label>
+                    <ProgressBar striped variant="success" now={70} />
+                </div>
+                <div className='progression'>
                     <label>MONGODB</label>
                     <ProgressBar striped variant="success" now={70} />
                 </div>
