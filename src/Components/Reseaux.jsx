@@ -6,7 +6,7 @@ import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg
 const  Reseaux = () => {
     return (
         <>
-            <div className='reseauxx' style={{margin: '10px'}}>
+        <div className='reseauxx' style={{margin: '10px'}}>
             <hr className="border border-#3b344e border-3 "></hr>
                 <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faFacebook} size="2x" />
@@ -32,8 +32,8 @@ const  Reseaux = () => {
                 <footer style={{ width: '32rem', backgroundColor: "#3b344e", color: "white", height: "50px", padding: "20px", marginBottom: "5px", marginTop: "20px", borderRadius: "10px" }} >
                     <div className="container">
                         <p className="text-center" >
-                            &copy; {new Date().getFullYear()} Uzuri-new. Tous droits réservés.
-                            <a href="https://uzuri-new.com/" style={{ textDecoration: "none", color: 'greenyellow' }}>By Dayana</a>.
+                            &copy; {new Date().getFullYear()} DigitalWebProfile. Tous droits réservés.
+                            <a href="https://digitalwebprofil.com/" style={{ textDecoration: "none", color: 'greenyellow' }}>By Dayana</a>.
                         </p>
                     </div>
                 </footer>
