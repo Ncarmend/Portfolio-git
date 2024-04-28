@@ -37,7 +37,7 @@ setErrorMessage('Veuillez remplir tous les champs.');
         {showConfirmation && (
         <Alert variant="success" onClose={() => setShowConfirmation(false)} dismissible>
                        
-        Message envoyé avec succès !<br/>
+        Message envoyé avec succès merci !<br/>
         Nous vous recontaterons dès que possible.
         </Alert>
                 )}
